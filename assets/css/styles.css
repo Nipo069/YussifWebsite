@@ -141,6 +141,20 @@ img {
   height: auto;
 }
 
+/*==================== TYPING EFFECT ====================*/
+
+.featured-name {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+  margin-block: 20px;
+}
+
+.typedText {
+  text-transform: capitalize;
+  color: rgb(30, 159, 171);
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -309,6 +323,13 @@ img {
 
 .home__blob-img {
   width: 170px;
+  animation: imgFloat 7s ease-in-out infinite;
+}
+
+@keyframes imgFloat {
+  50% {
+    transform: translateY(10px);
+  }
 }
 
 .home__data {
