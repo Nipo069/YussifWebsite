@@ -146,7 +146,7 @@ img {
 .featured-name {
   font-size: 50px;
   font-weight: 600;
-  color: rgb(68, 68, 68);
+  color: var(--title-color);
   margin-block: 20px;
 }
 
