@@ -200,6 +200,17 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/* ----- TYPING EFFECT ----- */
+
+let typingEffect = new Typed(".typedText", {
+    strings: ["Developer", "Designer"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000
+})
+
+
 /*==================== SEND EMAIL WITH JS ====================*/
 function sendMail() {
     var params = {
