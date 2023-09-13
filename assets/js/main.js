@@ -203,7 +203,7 @@ themeButton.addEventListener('click', () => {
 /* ----- TYPING EFFECT ----- */
 
 let typingEffect = new Typed(".typedText", {
-    strings: ["Developer", "Designer"],
+    strings: ["Developer", "Programmer", "Designer"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 80,
@@ -235,3 +235,6 @@ function sendMail() {
         })
         .catch(err => console.log(err));
 }
+
+// to show first skills clicked
+document.querySelector("#skills > div > div:nth-child(1) > div:nth-child(1) > div.skills__header > i.uil.uil-angle-down.skills__arrow").click()
